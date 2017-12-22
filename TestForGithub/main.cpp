@@ -4,5 +4,6 @@ int main()
 {
 	cout << "HelloWorld";
 	cout << "\n";
+	cout << "!";
 	return 0;
 }
