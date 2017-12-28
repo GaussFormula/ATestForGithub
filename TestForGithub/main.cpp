@@ -1,9 +1,10 @@
 #include <iostream>
+#include "ClassB.h"
 using std::cout;
 int main()
 {
-	cout << "HelloWorld";
-	cout << "\n";
-	cout << "!";
+	B b = B(1);
+	std::cout << b.getAValue()<<std::endl;
+	system("pause");
 	return 0;
 }
